@@ -2,6 +2,7 @@
 *.o
 *.so
 *.exe
+/engines/mem
 /.depend
 /FIO-VERSION-FILE
 /config-host.h

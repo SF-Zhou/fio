@@ -1,0 +1,10 @@
+[global]
+bs=4k
+gtod_reduce=1
+
+[mem]
+ioengine=mem
+size=100m
+rw=randread
+norandommap
+time_based
