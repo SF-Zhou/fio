@@ -1,0 +1,10 @@
+[chunk_engine]
+bs=512KB
+thread=1
+gtod_reduce=1
+group_reporting
+ioengine=chunk_engine
+size=1GB
+rw=randwrite
+time_based
+engine_path=target/engine

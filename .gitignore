@@ -2,7 +2,6 @@
 *.o
 *.so
 *.exe
-/engines/mem
 /.depend
 /FIO-VERSION-FILE
 /config-host.h
@@ -33,3 +32,7 @@ doc/output
 /t/zbd/test-zbd-support.log.*
 /t/fuzz/fuzz_parseini
 tsc-rate
+
+/engines/chunk_engine
+/target
+/Cargo.lock
