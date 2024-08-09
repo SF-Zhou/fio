@@ -1,10 +1,10 @@
 [chunk_engine]
-bs=512KB
+bs=16MB
 thread=1
 gtod_reduce=1
 group_reporting
 ioengine=chunk_engine
-size=1GB
+size=10GB
 rw=randwrite
 time_based
 engine_path=target/engine

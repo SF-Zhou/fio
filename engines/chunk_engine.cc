@@ -80,7 +80,7 @@ struct Wrapper {
   }
 
   static int update_chunks(struct thread_data *td, struct io_u *io_u) {
-    constexpr size_t block_size = 512 * 1024;
+    constexpr size_t block_size = 16 * 1024 * 1024;
     auto remain = io_u->xfer_buflen;
     auto offset = io_u->offset;
     auto ret = 0;
